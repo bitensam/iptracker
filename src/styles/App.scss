@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+/*VARIABLES*/
+
+$font: 'Rubik, sans-serif';
+$font-normal: 400;
+$font-semibold: 500;
+$font-bold: 700;
+$font-size: 18px;
+
+$color-primary: hsl(0, 0%, 17%);
+$color-secondary: hsl(0, 0%, 59%);
+
+/*GLOBALS*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  line-height: 160%;
+  font-size: $font-size;
+  font-family: $font;
+}
+/*TYPOGRAPHY*/
